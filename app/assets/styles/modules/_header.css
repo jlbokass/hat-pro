@@ -1,0 +1,57 @@
+header {
+	width: 100%;
+	height: 70px;
+	background-color: skyblue;
+	margin-bottom: 200px;
+}
+
+.logo {
+	display: block;
+	width: 20%;
+	height: 70px;
+	float: left;
+	background-color: rebeccapurple;
+}
+.navigation {
+	width: 60%;
+	height: 70px;
+	float: left;
+	background-color: rosybrown;
+}
+
+.nav-button {
+	width: 20%;
+	float: left;
+	background-color: saddlebrown;
+}
+
+.site-nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+.site-nav li {
+	list-style: none;
+	float: left;
+	margin-right: 50px;
+	background-color: tomato;
+}
+
+.site-nav a {
+	display: block;
+	height: 70px;
+	color: #000;
+	text-decoration: none;
+}
+
+.site-nav a:hover {
+	color: rgb(153, 198, 213);
+}
+
+.site-nav a:active {
+	color: rgb(153, 198, 213);
+}
+
+a.active {
+	color: rgb(153, 198, 213);
+}
